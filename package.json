@@ -1,0 +1,28 @@
+{
+  "name": "cra-template-rescript",
+  "version": "1.0.0",
+  "description": "ReScript + Reason React template for Create React App",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "reason-react",
+    "create-react-app",
+    "template",
+    "rescript",
+    "bucklescript",
+    "reason",
+    "reasonml"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reason-seoul/cra-template-rescript.git"
+  },
+  "author": {
+    "name": "Hyeseong Kim",
+    "email": "cometkim.kr@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/reason-seoul/cra-template-rescript/issues"
+  },
+  "homepage": "https://github.com/reason-seoul/cra-template-rescript#readme"
+}

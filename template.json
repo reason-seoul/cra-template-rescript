@@ -1,0 +1,33 @@
+{
+  "package": {
+    "scripts": {
+      "start:re": "bsb -make-world -w",
+      "start:cra": "react-scripts start",
+      "start": "concurrently \"yarn:start:*\"",
+      "prebuild": "bsb -clean-world -make-world",
+      "build": "react-scripts build"
+    },
+    "resolutions": {
+      "jest": "26.4.2",
+      "react": "0.0.0-experimental-94c0244ba",
+      "react-dom": "0.0.0-experimental-94c0244ba",
+      "react-refresh": "0.0.0-experimental-94c0244ba"
+    },
+    "dependencies": {
+      "@glennsl/bs-jest": "^0.5.1",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.0.4",
+      "@testing-library/user-event": "^12.1.4",
+      "bs-platform": "^8.2.0",
+      "bs-react-testing-library": "^0.7.3",
+      "concurrently": "^5.3.0",
+      "react": "experimental",
+      "react-dom": "experimental",
+      "react-scripts": "4.0.0-next.98",
+      "react-refresh": "experimental",
+      "reason-react": "^0.9.1",
+      "web-vitals": "^0.2.4"
+    },
+    "eslintConfig": null
+  }
+}
