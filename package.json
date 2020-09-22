@@ -1,6 +1,6 @@
 {
   "name": "cra-template-rescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReScript + Reason React template for Create React App",
   "license": "MIT",
   "keywords": [
