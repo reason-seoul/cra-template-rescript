@@ -1,4 +1,4 @@
-open ReactDOMExperimental
+open ReactDomExperimental
 
 %%raw(`import './Index.css';`)
 
