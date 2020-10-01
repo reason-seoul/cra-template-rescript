@@ -1,9 +1,6 @@
 %%raw(`import './App.css';`)
 
-// babel-plugin-named-asset-import doesn't support rescript output format out-of-box
-// See https://github.com/facebook/create-react-app/blob/88a5435/packages/babel-plugin-named-asset-import/index.test.js
-%%raw(`import logo from "./logo.svg";`)
-@bs.val external logo: string = "logo"
+@bs.module("./logo.svg") external logo: string = "default"
 
 @react.component
 let make = () => {
