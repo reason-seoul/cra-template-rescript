@@ -27,3 +27,6 @@ yarn-error.log*
 .merlin
 .bsb.lock
 *.bs.js
+
+# ESLint
+.eslintcache
