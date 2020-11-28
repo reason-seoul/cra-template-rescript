@@ -8,7 +8,10 @@ ReScript + Reason React template for Create React App
 ## Usage
 
 ```bash
-npx create-react-app@next --scripts-version=@next --template=rescript my-app
+yarn create react-app --template=rescript my-rescript-app
+
+# Or using NPX
+npx create-react-app --template=rescript my-rescript-app
 ```
 
 ## Settings included
