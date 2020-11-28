@@ -16,5 +16,6 @@ npx create-react-app --template=rescript my-rescript-app
 
 ## Settings included
 
-- Concurrent Mode
-- ReScript Syntax
+- Concurrent mode
+- ReScript syntax (`*.res`)
+- Editor configurations (VSCode / coc.nvim)
