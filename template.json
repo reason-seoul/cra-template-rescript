@@ -1,6 +1,7 @@
 {
   "package": {
     "scripts": {
+      "postinstall": "bsb -make-world",
       "start:re": "bsb -make-world -w",
       "start:cra": "react-scripts start",
       "start": "concurrently \"yarn:start:*\"",
