@@ -1,31 +1,29 @@
 {
   "package": {
-    "scripts": {
-      "postinstall": "bsb -make-world",
-      "start": "run-p start:*",
-      "start:re": "bsb -make-world -w",
-      "start:cra": "react-scripts start",
-      "prebuild": "bsb -clean-world -make-world",
-      "build": "react-scripts build"
-    },
-    "resolutions": {
-      "react": "0.0.0-experimental-4ead6b530",
-      "react-dom": "0.0.0-experimental-4ead6b530"
-    },
-    "dependencies": {
-      "@glennsl/bs-jest": "^0.6.0",
-      "@testing-library/jest-dom": "^5.11.6",
-      "@testing-library/react": "^11.2.2",
-      "@testing-library/user-event": "^12.2.2",
-      "bs-platform": "^8.3.3",
-      "bs-react-testing-library": "^0.8.0",
-      "npm-run-all": "^4.1.5",
-      "react": "experimental",
-      "react-dom": "experimental",
-      "react-scripts": "^4.0.1",
-      "reason-react": "^0.9.1",
-      "web-vitals": "^1.0.1"
-    },
-    "eslintConfig": null
+      "scripts": {
+          "start": "react-scripts start",
+          "build": "react-scripts build",
+          "test": "react-scripts test",
+          "eject": "react-scripts eject",
+          "re:build": "rescript build",
+          "re:watch": "rescript build -w",
+          "re:clean": "rescript clean",
+          "postinstall": "rescript build",
+          "prebuild": "rescript clean && rescript build"
+      },
+      "devDependencies": {
+          "rescript": "^9.1.2"
+      },
+      "dependencies": {
+          "@rescript/react": "^0.10.3",
+          "@testing-library/jest-dom": "^5.11.4",
+          "@testing-library/react": "^11.1.0",
+          "@testing-library/user-event": "^12.1.10",
+          "react": "^17.0.2",
+          "react-dom": "^17.0.2",
+          "react-scripts": "4.0.3",
+          "web-vitals": "^1.0.1"
+      },
+      "eslintConfig": {}
   }
 }

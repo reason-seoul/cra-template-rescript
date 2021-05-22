@@ -1,12 +1,6 @@
-open ReactDomExperimental
+@module external _css: unit = "./Index.css"
 
-%%raw(`import './Index.css';`)
-
-switch createRootWithId("root") {
-| Some(root) => root->render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  )
+switch ReactDOM.querySelector("#root") {
+| Some(root) => ReactDOM.render(<React.StrictMode> <App /> </React.StrictMode>, root)
 | None => ()
 }
